@@ -1,0 +1,173 @@
+[
+    ChessPieces(title: "The King",
+                headline: "Capture me and the game is done.",
+                image: "king",
+                gradientColors: [Color("ColorKingLight"), Color("ColorKingDark")],
+                description: """
+                    The king (♔,♚) is the most important piece in the game of chess. If a player's king is threatened with capture, it is said to be in check, and the player must remove the threat of capture on the next move. If this cannot be done, the king is said to be in checkmate, resulting in a loss for that player. Players cannot make any move that places their own king in check. Although the king is the most important piece, it is usually the weakest piece in the game until the game's ending phase.
+
+                    Each player begins the game with a king in their color. The white king starts the game on e1; the black king starts on e8. Unlike the other pieces, only one king per player can be on the board at any time, and the kings are never removed from the board during the game.
+
+                    PLACEMENT AND MOVEMENT
+
+                    White starts with the king on e1, on the first rank to the right of the queen. Black starts with the king on e8, directly across from the white king. The kings always start on a square of opposite color.
+
+                    A king can move one square in any direction (horizontally, vertically, or diagonally), unless the square is already occupied by a friendly piece, or the move would place the king in check. As a result, opposing kings may never occupy adjacent squares (see opposition) to give check, as that would put the moving king in check as well. However, the king can give discovered check by unblocking a bishop, rook, or queen. The king is also involved in the special move of castling.
+
+                    CASTLING
+
+                    In conjunction with a rook, the king may make a special move called castling. When castling, the king moves two squares toward one of its rooks and that rook is placed on the square over which the king crossed. Castling is allowed only when neither the king nor the castling rook previously moved, no squares between them are occupied, the king is not in check, and the king will not move across or end its movement on a square that is under enemy attack. Castling with the h-file rook is known as castling kingside or short castling (denoted O-O in algebraic notation), which castling with the a-file rook is known as castling queenside or long castling (denoted O-O-O).
+                    """,
+                
+                games: ["Vachier-Lagrave vs Anand, 2018", "Karjakin vs Anand, 2018", "I Krush vs T Abrahamyan, 2014", "Lombardy vs Zuckerman, 1978", "M Krakops vs Dautov, 1999", "Soltis vs K Regan, 1978", "Leo Crevatin vs J Kretz, 2018"],
+                icon: "♔"
+    ),
+    
+    ChessPieces(
+            title: "The Queen",
+            headline: "I am the mitochondria of the board.",
+            image: "queen",
+            gradientColors: [Color("ColorQueenLight"), Color("ColorQueenDark")],
+            description: """
+              The queen (♕, ♛) is the most powerful piece in the game of chess, able to move any number of squares vertically, horizontally or diagonally. Each player starts the game with one queen, placed in the middle of the first rank next to the king. Because the queen is the strongest piece, a pawn is promoted to a queen in the vast majority of cases.
+
+              In the game shatranj, the ancestor of chess that included only male figures, the closest thing to the queen was the ferz, a weak piece only able to move or capture one step diagonally and not at all in any other direction. The modern chess queen gained power in the 15th century.
+
+              NOMENCLATURE
+
+              In most languages the piece is known as "queen" or "lady" (e.g. Italian regina). Asian and Eastern European languages tend to refer to it as vizier, minister or advisor (e.g. Arabic/Persian وزیر wazir, Russian ферзь ferz). In Polish it is known as the hetman – the name of a major historical military-political office, while in Estonian it is called lipp ("flag", "standard").
+
+              In the United Kingdom, "strawberries and cream" is a popular dessert consumed at the Wimbledon tennis tournament.[5] Strawberries and cream is also a staple snack in Mexico, usually available at ice cream parlors. In Sweden, strawberries are a traditional dessert served on St John's Day, also known as Midsummer's Eve. Depending on area, strawberry pie, strawberry rhubarb pie, or strawberry shortcake are also common. In Greece, strawberries may be sprinkled with sugar and then dipped in Metaxa, a brandy, and served as a dessert. In Italy, strawberries are used for various desserts and as a common flavoring for gelato (gelato alla fragola).
+
+              Suonenjoki in North Savonia, Finland is famous small town for its strawberries, that's why is also known as "the Strawberry Town" or "the Strawberry Capital". Lots of foreign people, mainly from Ukraine and Russia, come to Suonenjoki in summer to work on strawberry farms. That makes Suonenjoki the most international town of Finland at summer. There is a party in Suonenjoki in July called Mansikkakarnevaalit, "Strawberry Carnival".
+
+              PLACEMENT AND MOVEMENT
+
+              The white queen starts on d1, while the black queen starts on d8. With the chessboard oriented correctly, the white queen starts on a white square and the black queen starts on a black square—thus the mnemonics "queen gets her color", "queen on [her] [own] color", or "the dress [queen piece] matches the shoes [square]" (Latin: servat rēgīna colōrem).
+
+              The queen can be moved any number of unoccupied squares in a straight line vertically, horizontally, or diagonally, thus combining the moves of the rook and bishop. The queen captures by occupying the square on which an enemy piece sits.
+
+              Although both players start with one queen each, a pawn can be promoted to any of several types of pieces, including a queen, when the pawn is moved to the player's furthest rank (the opponent's first rank). Such a queen created by promotion can be an additional queen, or if the player's queen has been captured, a replacement queen. Pawn promotion to a queen is colloquially called queening, which is by far the most common type of piece a pawn is promoted to due to the relative power of a queen.
+              """,
+        games: ["Botvinnik vs. Minev, 1954", "Botvinnik vs. Ravinsky, 1944", "Lputian vs Harutjunyan, 2001"],
+        icon: "♕"
+          ),
+          ChessPieces(
+            title: "The Pawn",
+            headline: "I'm small, puny, but can become mighty.",
+            image: "pawn",
+            gradientColors: [Color("ColorPawnLight"), Color("ColorPawnDark")],
+            description: """
+
+              The pawn (♙,♟) is the most numerous piece in the game of chess and, in most circumstances, also the weakest. It historically represents infantry, or more particularly, armed peasants or pikemen.[1] Each player begins a game with eight pawns, one on each square of the rank immediately in front of the other pieces. (The white pawns start on a2, b2, c2, d2, e2, f2, g2, h2; the black pawns start on a7, b7, c7, d7, e7, f7, g7, h7.)
+
+              Individual pawns are referred to by the file on which they stand. For example, one speaks of "White's f-pawn" or "Black's b-pawn". Alternatively, they can be referred to by the piece which stood on that file at the beginning of the game, e.g. "White's king bishop's pawn" or "Black's queen knight's pawn". It is also common to refer to a rook's pawn, meaning any pawn on the a- or h-files, a knight's pawn (on the b- or g-files), a bishop's pawn (on the c- or f-files), a queen's pawn (on the d-file), a king's pawn (on the e-file), and a central pawn (on the d- or e-files).
+
+              PLACEMENT AND MOVEMENT
+
+              Unlike the other pieces, pawns cannot move backwards. Normally a pawn moves by advancing a single square, but the first time a pawn moves, it has the option of advancing two squares. Pawns may not use the initial two-square advance to jump over an occupied square, or to capture. Any piece immediately in front of a pawn, friend or foe, blocks its advance. In the second diagram, the pawn on c4 can move to c5; the pawn on e2 can move to either e3 or e4.
+
+              CAPTURING
+
+              Unlike other pieces, the pawn does not capture in the same direction that it moves. A pawn captures diagonally forward one square to the left or right (see diagram).
+
+              Another unusual rule is the en passant capture. It can occur after a pawn advances two squares using its initial two-step move option, and the square passed over is attacked by an enemy pawn. The enemy pawn is entitled to capture the moved pawn "in passing" – as if it had advanced only one square. The capturing pawn moves to the square over which the moved pawn passed (see diagram), and the moved pawn is removed from the board. The option to capture the moved pawn en passant must be exercised on the move immediately following the double-step pawn advance, or it is lost for the remainder of the game.
+
+              En passant was added in the 15th century to compensate for the then newly added two-square initial move rule (Hooper & Whyld 1992:124). Without en passant, a pawn on its initial square could safely bypass a square controlled by an advanced enemy pawn. En passant is the only capture in chess in which the capturing piece does not replace the captured piece on the same square.
+
+              PROMOTION
+
+              A pawn that advances all the way to the opposite side of the board (the opposing player's first rank) is promoted to another piece of that player's choice: a queen, rook, bishop, or knight of the same color. The pawn is immediately (before the opponent's next move) replaced by the new piece. Since it is uncommon for a piece other than a queen to be chosen, promotion is often called "queening". When some other piece is chosen it is known as underpromotion. The piece most often selected for underpromotion is a knight, used to execute a checkmate or a fork to gain a significant net increase in material. Underpromotion is also used in situations where promoting to a queen would give immediate stalemate. The choice of promotion is not limited to pieces that have been captured; thus a player could in theory have as many as ten knights, ten bishops, ten rooks or nine queens on the board simultaneously. While this extreme would almost never occur in practice, in game 11 of their 1927 world championship match, José Raúl Capablanca and Alexander Alekhine each had two queens in play from move 65 through move 66.[3] While some finer sets do include an extra queen of each color, most standard chess sets do not come with additional pieces, so the physical piece used to replace a promoted pawn on the board is usually one that was previously captured. In informal games, when the correct piece is not available, a second queen is often indicated by inverting a previously captured rook, or placing two pawns on the same square. In tournament games however this is not acceptable, and may result in the arbiter ruling that the upturned piece is, in fact, a rook.
+              """,
+            games: ["Capablanca vs J Corzo, 1901", "Marshall vs Capablanca, 1909", "Alekhine vs Opocensky, 1943", "Fischer vs Martner, 1959", "Morphy vs Loewenthal, 1858"],
+            
+            icon: "♙"
+          ),
+          ChessPieces(
+            title: "The Rook",
+            headline: "I'm the foundation of the chessboard. Fear me.",
+            image: "rook",
+            gradientColors: [Color("ColorRookLight"), Color("ColorRookDark")],
+            description: """
+            The rook (/rʊk/; ♖,♜) is a piece in the game of chess resembling a castle. Formerly the piece (from Persian رخ rokh/rukh) was called the tower, marquess, rector, and comes (Sunnucks 1970). The term castle is considered to be informal, incorrect, or old-fashioned.[1][2]
+
+            Each player starts the game with two rooks, one on each of the corner squares on their own side of the board.
+
+            PLACEMENT AND MOVEMENT
+
+            The white rooks start on squares a1 and h1, while the black rooks start on a8 and h8. The rook moves horizontally or vertically, through any number of unoccupied squares (see diagram). As with captures by other pieces, the rook captures by occupying the square on which the enemy piece sits. The rook also participates, with the king, in a special move called castling.
+
+            STRATEGY
+
+            In general, rooks are stronger than bishops or knights (which are called minor pieces) and are considered greater in value than either of those pieces by nearly two pawns but less valuable than two minor pieces by approximately a pawn. Two rooks are generally considered to be worth slightly more than a queen (see chess piece relative value). Winning a rook for a bishop or knight is referred to as winning the exchange. Rooks and queens are called heavy pieces or major pieces, as opposed to bishops and knights, the minor pieces.
+
+            In the opening, the rooks are blocked in by other pieces and cannot immediately participate in the game, so it is usually desirable to connect one's rooks on the first rank by castling and then clearing all pieces except the king and rooks from the first rank. In that position, the rooks support each other and can more easily move to occupy and control the most favorable files.
+
+            A common strategic goal is to develop a rook on the first rank of an open file (i.e., one unobstructed by pawns of either player) or a half-open file (i.e., one unobstructed by friendly pawns). From this position, the rook is relatively unexposed to risk but can exert control on every square on the file. If one file is particularly important, a player might advance one rook on it, then position the other rook behind—doubling the rooks.
+
+            A rook on the seventh rank (the opponent's second rank) is typically very powerful, as it threatens the opponent's unadvanced pawns and hems in the enemy king. A rook on the seventh rank is often considered sufficient compensation for a pawn (Fine & Benko 2003:586). In the diagrammed position from a game between Lev Polugaevsky and Larry Evans,[3] the rook on the seventh rank enables White to draw, despite being a pawn down (Griffiths 1992:102–3).
+
+            Two rooks on the seventh rank are often enough to force victory, or at least a draw by perpetual check.
+            """,
+            
+            games: ["Vachier-Lagrave vs Anand, 2018", "Karjakin vs Anand, 2018", "I Krush vs T Abrahamyan, 2014", "Lombardy vs Zuckerman, 1978", "M Krakops vs Dautov, 1999", "Soltis vs K Regan, 1978", "Leo Crevatin vs J Kretz, 2018"],
+            
+            icon: "♖"
+          ),
+          ChessPieces(
+            title: "The Knight",
+            headline: "I have crazy moves and can hop over pieces. I have coconut hooves.",
+            image: "knight",
+            gradientColors: [Color("ColorKnightLight"), Color("ColorKnightDark")],
+            description: """
+
+            The knight, along with the king and the rook, has the oldest defined movement of any chess piece, its movement being unchanged since the invention of chaturanga in India around the 6th century.[2] Similar pieces are found in almost all games of the chess family. The ma of xiangqi and janggi are slightly more restricted; conceptually, the piece is considered to pass through the adjacent orthogonal square, which must be unoccupied, rather than "jumping". Another related piece is the keima of shogi, which moves like a knight but may only move two squares forward followed by one square sideways, restricting its movement to two possible squares.
+
+            The knight is colloquially sometimes referred to as a "horse", which is also the translation of the piece's name in several languages. Some languages refer to it as the "jumper", reflecting the knight's ability to move over pieces in its path: Polish skoczek, Danish/Norwegian springer, Swedish springare, German Springer, Luxembourgish Sprénger, Slovene skakač. In Sicilian it is called sceccu, a slang term for a donkey, derived from the Arabic sheikh, who during the Islamic period rode from village to village on donkeys collecting taxes.
+
+            PLACEMENT AND MOVEMENT
+
+            Compared to other chess pieces, the knight's movement is unique: it may move two squares vertically and one square horizontally, or two squares horizontally and one square vertically (with both forming the shape of an L). While moving, the knight can jump over pieces to reach its destination.[4][5][6] Knights capture in the same way, replacing the enemy piece on the square and removing it from the board. Knights and pawns are the only pieces that can be moved in the initial position.
+
+            PROPERTIES
+
+            Enemy pawns are very effective at harassing knights because a pawn attacking a knight is not itself attacked by the knight. For this reason, a knight is most effective when placed in a weakness in the opponent's pawn structure, i.e. a square which cannot be attacked by enemy pawns. In the diagram, White's knight on d5 is very powerful – more powerful than Black's bishop on g7.
+
+            Whereas two bishops cover each other's weaknesses, two knights tend not to cooperate with each other as efficiently. As such, a pair of bishops is usually considered better than a pair of knights (Flear 2007:135). World Champion José Raúl Capablanca considered that a queen and a knight is usually a better combination than a queen and a bishop. However, Glenn Flear found no game of Capablanca's that supported his statement; statistics do not support the statement, either. In an endgame without other pieces or pawns, two knights generally have a better chance against a queen than two bishops or a bishop and a knight.
+
+            Compared to a bishop, a knight is often not as good in an endgame. A knight can only exert control over one part of the board at a time and often takes multiple moves to reposition to a new location, which often makes it less suitable in endgames with pawns on both sides of the board. This limitation is less important, however, in endgames with pawns on only one side of the board. Knights are superior to bishops in an endgame if all the pawns are on one side of the board. Furthermore, knights have the advantage of being able to control squares of either color, unlike a lone bishop. Nonetheless, a disadvantage of the knight (compared to the other pieces) is that by itself it cannot lose a move to put the opponent in zugzwang (see triangulation and tempo), while a bishop can. In this position, if the knight is on a white square and it is White's turn to move, White cannot win. Similarly, if the knight were on a black square and it were Black's turn to move, White cannot win. In the other two cases, White would win. If instead of the knight, White had a bishop on either color of square, White would win with either side to move.
+            """,
+            
+            games: ["Kirk vs Spock, 2264", "Krasenkow vs. Zvjaginsev, 2009", "Karpov vs. Browne, 1972", "Lombardy vs Zuckerman, 1978", "Bogoljubov vs Bluemich, 1925", "Kirk vs Khan, 2266", "Kirk vs Bones, 2265"],
+            
+            icon: "♘"
+            
+          ),
+          ChessPieces(
+            title: "The Bishop",
+            headline: "I live on the diagonal and have a pointy hat.",
+            image: "bishop",
+            gradientColors: [Color("ColorBishopLight"), Color("ColorBishopDark")],
+            description: """
+
+            The bishop (♗,♝) is a piece in the game of chess. Each player begins the game with two bishops. One starts between the king's knight and the king, the other between the queen's knight and the queen. The starting squares are c1 and f1 for White's bishops, and c8 and f8 for Black's bishops.
+
+            PLACEMENT AND MOVEMENT
+
+            The bishop has no restrictions in distance for each move, but is limited to diagonal movement. Bishops, like all other pieces except the knight, cannot jump over other pieces. A bishop captures by occupying the square on which an enemy piece sits.
+
+            The bishops may be differentiated according to which wing they begin on, i.e. the king's bishop and queen's bishop. As a consequence of its diagonal movement, each bishop always remains on either the white or black squares, and so it is also common to refer to them as light-squared or dark-squared bishops.
+
+            PROPERTIES
+
+            In the middlegame, a player with only one bishop should generally place friendly pawns on squares of the color that the bishop cannot move to. This allows the player to control squares of both colors, allows the bishop to move freely among the pawns, and helps fix enemy pawns on squares on which they can be attacked by the bishop. Such a bishop is often referred to as a "good" bishop.
+
+            Conversely, a bishop which is impeded by friendly pawns is often referred to as a "bad bishop" (or sometimes, disparagingly, a "tall pawn"). The black light-squared bishop in the French Defense is a notorious example of this concept. However, a "bad" bishop need not always be a weakness, especially if it is outside its own pawn chains. In addition, having a "bad" bishop may be advantageous in an opposite-colored bishops endgame. Even if the bad bishop is passively placed, it may serve a useful defensive function; a well-known quip from GM Mihai Suba is that "Bad bishops protect good pawns."[1]
+
+            In the position from the game Krasenkow versus Zvjaginsev,[2] a thicket of black pawns hems in Black's bishop on c8, so Black is effectively playing with one piece fewer than White. Although the black pawns also obstruct the white bishop on e2, it has many more attacking possibilities, and thus is a good bishop vis-à-vis Black's bad bishop. Black resigned after another ten moves.
+            """,
+            games: ["Pope vs Anti-Pope, 1908", "Monkey Boy vs Mr. Fish, 2018", "Unpronounceable Figure vs Smith, 2014", "Shadowy Figure vs Unicorn, 1978", "Salt vs Sugarpop, 1999", "Slenderfella vs Curræe, 1978", "Kottke vs Itchy and Scratchy, 2018"],
+            
+            icon: "♗"
+          )
+]
